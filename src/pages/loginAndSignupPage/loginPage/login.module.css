@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+/* start of container */
+.container{
+    width: 80%;
+    margin: 50px auto;
+    /* display: flex;
+    gap: 40px; */
+    text-align: center;
+}
+
+/* start of formContainer */
+/* .formClassname{
+    text-align: center;
+} */
+.inputEmail{
+    margin-top: 30px;
+}
+.inputEmail, .inputPassword{
+    display: block;
+    width: 20%;
+    border-radius: 7px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px 12px;
+}
+.formButton{
+    width: 20%;
+    background-color: black;
+    padding: 6px 8px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+.formButton:hover{
+    background-color: rgba(0, 0, 0, 0.362);
+    color: black;
+}
+/* end of formContainer */
+
+/* start of orContainer */
+
+.orContainer{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.horizontal{
+    border-color: lightgray;
+    width: 15%;
+}
+
+/* end of orContainer */
+
+/* start  of signUpPathContainer */
+
+.signUpPathContainer>p>a{
+    color: blue;
+}
+
+/* start  of signUpPathContainer */
+
+/* end of container */

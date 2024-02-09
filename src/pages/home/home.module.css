@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.mainBody{
+    background-color: blueviolet;
+    padding-bottom: 10px;
+}
+.heading{
+    margin-top: 0;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+/* this is the start of nav */
+.navList{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    cursor: default;
+}
+.navLi{
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    padding: 0 10px;
+}
+.navLi:hover{
+    color: white;
+}
+.navLi:first-child:hover, .navLi:nth-child(2):hover{
+    border-right: 1px solid white;
+}
+.navLi:last-child:hover, .navLi:nth-child(2):hover{
+    border-left: 1px solid white;
+}
+/* this is the end of nav */
+
+
+/* this is the start of hero-section */
+
+.heroSection{
+    text-align: center;
+    margin: 20px 0 40px;
+}
+
+/* this is the end of hero-section */
+
+
+/* this is the start of btnContainer */
+
+.btnContainer{
+
+
+    /* width: 50%; */
+    margin: 30px auto;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    /* background-color: red; */
+}
+
+/* this is start of Button */
+
+.btn{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border: none;
+    border-radius: 6px;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+
+/* this is start of Button */
+
+/* this is the start of btnContainer */

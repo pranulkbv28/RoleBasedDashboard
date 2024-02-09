@@ -1,0 +1,49 @@
+/* start of body */
+
+.body{
+    width: 85%;
+}
+
+/* start of navBar */
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 10px;
+}
+
+/* start of logoutBtn */
+
+.logoutBtn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.logoutBtn:hover{
+    background-color: rgba(0, 0, 0, 0.362);
+    color: black;
+}
+
+/* end of logoutBtn */
+
+/* end of navBar */
+
+
+
+/* start of cardHolder */
+
+.cardHolder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* justify-content: space-evenly; */
+}
+
+/* end of cardHolder */
+
+/* end of body */
